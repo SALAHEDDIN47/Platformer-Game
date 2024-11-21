@@ -1,4 +1,4 @@
-# Platformer Game
+# Platformer-Game
 
 ## Project Overview
 The **Platformer Game** is a 2D side-scrolling game built with HTML, CSS, and JavaScript. It challenges players to navigate through obstacles, jump between platforms, and collect items to achieve high scores. With engaging gameplay and customizable features, it showcases fundamental game development concepts and design.
