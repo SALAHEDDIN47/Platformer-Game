@@ -56,8 +56,21 @@ class Player {
   }
 }
 
-const player = new Player();
 
+class Platform {
+  constructor(x, y) {
+    this.position = {
+      x,
+      y,
+    };
+    this.width = 200;
+    this.height = proportionalSize(40);
+  }
+
+}
+
+
+const player = new Player();
 
 const animate = () => {
   requestAnimationFrame(animate);
@@ -112,16 +125,11 @@ const movePlayer = (key, xVelocity, isPressed) => {
   }
 }
 
-
 const startGame = () => {
   canvas.style.display = "block";
   startScreen.style.display = "none";
-
-
   animate();
-
 }
-
 
 startBtn.addEventListener("click", startGame);
 
@@ -132,4 +140,3 @@ window.addEventListener("keydown", ({ key }) => {
 window.addEventListener("keyup", ({ key }) => {
   movePlayer(key, 0, false);
 });
-
