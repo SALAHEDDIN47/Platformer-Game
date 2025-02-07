@@ -5,9 +5,9 @@
   }
   
   :root {
-    --main-bg-color: #0a0a23;
-    --section-bg-color: #ffffff;
-    --golden-yellow: #feac32;
+    --main-bg-color: #0b0b9b97;
+    --section-bg-color: #a39e9e;
+    --golden-yellow: #995f09;
   }
   
   body {
@@ -29,29 +29,33 @@
   
   .main-title {
     text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
   
   .instructions {
     text-align: center;
     font-size: 1.2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 15px;
     line-height: 2rem;
   }
   
   .btn {
     cursor: pointer;
-    width: 100px;
+    width: 120px;
     margin: 10px;
-    color: #0a0a23;
+    color: #010102;
     font-size: 18px;
-    background-color: var(--golden-yellow);
-    background-image: linear-gradient(#fecc4c, #ffac33);
-    border-color: var(--golden-yellow);
-    border-width: 3px;
+    font-weight: bold;
+    background-color: rgb(255, 119, 46);
+    border-width: 2px;
+    border-color: rgb(254, 106, 27);
+    border-radius: 3px;
   }
   
   .btn:hover {
     background-image: linear-gradient(#ffcc4c, #f89808);
+    border-color: #ffcc4c;
   }
   
   .btn-container {
